@@ -1,5 +1,5 @@
 # Workshops
-Code from workshops hosted for Robosub!
+Code from workshops hosted for RoboSub!
 
 This repository includes:
 
