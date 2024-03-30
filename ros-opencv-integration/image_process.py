@@ -11,7 +11,7 @@ import buoy_detector
 bridge = CvBridge()
 
 # just for debugging: publisher for the processed image (because rqt is easy to use)
-img_pub = rospy.Publisher("obstacle", Image)
+img_pub = rospy.Publisher("obstacle", Image, queue_size=10)
 
 # callback for detecting an obstacle
 def detect_obstacle(ros_img):
